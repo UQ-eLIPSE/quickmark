@@ -1,0 +1,36 @@
+// {
+//     "compilerOptions": {
+//         "outDir": "./built/",
+//         "sourceMap": true,
+//         "strict": true,
+//         "noImplicitReturns": true,
+//         "module": "es2015",
+//         "moduleResolution": "node",
+//         "target": "es5"
+//     },
+//     "include": [
+//         "./src/**/*"
+//     ]
+// }
+
+
+// tsconfig.json
+{
+    "compilerOptions": {
+        "outDir": "./built/",
+        "sourceMap": true,
+
+      // this aligns with Vue's browser support
+      "target": "es6",
+      // this enables stricter inference for data properties on `this`
+      "strict": true,
+      // if using webpack 2+ or rollup, to leverage tree shaking:
+      "module": "es2015",
+      "moduleResolution": "node",
+      "experimentalDecorators": true
+      
+    },
+    "include": [
+        "./src/**/*"
+        ]
+  }
