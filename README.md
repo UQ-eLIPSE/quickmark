@@ -1,2 +1,2 @@
 # quickmark
-An application to consume and mark student submissions.
+An application to quickly consume and mark student file submissions.
